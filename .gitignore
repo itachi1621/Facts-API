@@ -3,5 +3,8 @@ my_env
 __pycache__
 access_log.txt
 error_log.txt
+accesslog.txt
+errorlog.txt
 gunicorn.*
 gunicorn_conf.py
+
