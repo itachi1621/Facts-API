@@ -31,6 +31,7 @@ def getUFact():
 
         random_index = random.randrange(0,ufacts_size - 1)
         return {
+                'id':random_index,
                 'fact': ufacts[random_index]['text'],
                 'source':ufacts[random_index]['source']
                 }
@@ -52,6 +53,7 @@ def getUFactWithId(useless_fact_id: int):
                 }
         else:
             return {
+                'id':useless_fact_id,
                 'fact': ufacts[useless_fact_id]['text'],
                 'source':ufacts[useless_fact_id]['source']
                 }
@@ -69,6 +71,7 @@ def getIFact():
 
         random_index = random.randrange(0,ifacts_size - 1)
         return {
+                'id':random_index,
                 'fact': ifacts[random_index],
                 'source':"N/A"
                 }
@@ -90,6 +93,7 @@ def getIFactWithId(intresting_fact_id: int):
                 }
         else:
             return {
+                'id':intresting_fact_id,
                 'fact': ifacts[intresting_fact_id],
                 'source':"N/A"
                 }
