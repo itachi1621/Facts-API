@@ -3,7 +3,7 @@ import json
 import random
 app = FastAPI()
 
-version = "1.0.0"
+version = "1.0.2"
 #import json file
 with open('facts/intresting_facts.json') as f: #Relatively small file with 2000 ish entries loading it into memory is faster and less work than transposing into a DB
     ifacts = json.load(f)
