@@ -34,7 +34,7 @@ def getVersion():
         }
 
 @app.get(base_url+'/useless/fact')
-def getUFact(fid:str | None  ):
+def getUFact(fid:str=""):
     try:
 
         if fid == None:
@@ -77,7 +77,7 @@ def getUFact(fid:str | None  ):
 
 
 @app.get(base_url+'/intresting/fact')
-def getIFact(fid:str | None ):
+def getIFact(fid:str=""):
     try:
         if fid == None:
             fid = ""
