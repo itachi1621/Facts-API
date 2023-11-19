@@ -1,0 +1,14 @@
+{
+    "builds": [
+      {
+        "src": "FactsAPI.py",
+        "use": "@vercel/python"
+      }
+    ],
+    "routes": [
+      {
+        "src": "/(.*)",
+        "dest": "FactsAPI.py"
+      }
+    ]
+  }
