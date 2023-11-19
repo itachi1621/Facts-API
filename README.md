@@ -26,11 +26,9 @@ uvicorn FactsAPI:app --reload
 
 ## Endpoints
 
-###Demo endpoint
+### Demo endpoint
 
-```
 https://facts.zerosystems.org/api/v1/intresting/fact
-```
 
 #### Documentation
 ```
@@ -61,6 +59,12 @@ https://facts.zerosystems.org/api/v1/intresting/fact
 127.0.0.1/api/v1/intresting/fact
 
 ```
+
+### Licence
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+
 
 #### Intresting fact with id
 ```
