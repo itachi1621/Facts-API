@@ -9,7 +9,7 @@ Welcome to the Random Fact API, a simple FastAPI-based web service that provides
 ### Prerequisites
 
 - Python 3.7 or later
-- [FastAPI](https://fastapi.tiangolo.com/) installed. If not, you can install it using:
+- [FastAPI](https://fastapi.tiangolo.com/) installed.
 - Uvicorn
 - Gunicorn (if serving via nginx )
 
